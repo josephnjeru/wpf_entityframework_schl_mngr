@@ -8,3 +8,43 @@ C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\bin\
 C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\obj\Debug\Datalayer.csprojResolveAssemblyReference.cache
 C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\obj\Debug\Datalayer.dll
 C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\obj\Debug\Datalayer.pdb
+C:\Users\Joseph Njeru\Desktop\School_Manager\Datalayer\obj\Debug\Datalayer.csprojResolveAssemblyReference.cache
+C:\Users\Joseph Njeru\Desktop\School_Manager\Datalayer\obj\Debug\Datalayer.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\Datalayer\obj\Debug\Datalayer.pdb
+C:\Users\Joseph Njeru\Desktop\School_Manager\Datalayer\bin\Debug\Datalayer.dll.config
+C:\Users\Joseph Njeru\Desktop\School_Manager\Datalayer\bin\Debug\Datalayer.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\Datalayer\bin\Debug\Datalayer.pdb
+C:\Users\Joseph Njeru\Desktop\School_Manager\Datalayer\bin\Debug\EntityFramework.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\Datalayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\Datalayer\bin\Debug\EntityFramework.xml
+C:\Users\Joseph Njeru\Desktop\School_Manager\Datalayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KSG\Documents\School_Manager\Datalayer\bin\Debug\Datalayer.dll.config
+C:\Users\KSG\Documents\School_Manager\Datalayer\bin\Debug\Datalayer.dll
+C:\Users\KSG\Documents\School_Manager\Datalayer\bin\Debug\Datalayer.pdb
+C:\Users\KSG\Documents\School_Manager\Datalayer\bin\Debug\EntityFramework.dll
+C:\Users\KSG\Documents\School_Manager\Datalayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KSG\Documents\School_Manager\Datalayer\bin\Debug\EntityFramework.xml
+C:\Users\KSG\Documents\School_Manager\Datalayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KSG\Documents\School_Manager\Datalayer\obj\Debug\Datalayer.csprojResolveAssemblyReference.cache
+C:\Users\KSG\Documents\School_Manager\Datalayer\obj\Debug\Datalayer.dll
+C:\Users\KSG\Documents\School_Manager\Datalayer\obj\Debug\Datalayer.pdb
+C:\Users\KSG\Videos\School_Manager\Datalayer\bin\Debug\Datalayer.dll.config
+C:\Users\KSG\Videos\School_Manager\Datalayer\bin\Debug\Datalayer.dll
+C:\Users\KSG\Videos\School_Manager\Datalayer\bin\Debug\Datalayer.pdb
+C:\Users\KSG\Videos\School_Manager\Datalayer\bin\Debug\EntityFramework.dll
+C:\Users\KSG\Videos\School_Manager\Datalayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KSG\Videos\School_Manager\Datalayer\bin\Debug\EntityFramework.xml
+C:\Users\KSG\Videos\School_Manager\Datalayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KSG\Videos\School_Manager\Datalayer\obj\Debug\Datalayer.csprojResolveAssemblyReference.cache
+C:\Users\KSG\Videos\School_Manager\Datalayer\obj\Debug\Datalayer.dll
+C:\Users\KSG\Videos\School_Manager\Datalayer\obj\Debug\Datalayer.pdb
+N:\School_Manager\Datalayer\bin\Debug\Datalayer.dll.config
+N:\School_Manager\Datalayer\bin\Debug\Datalayer.dll
+N:\School_Manager\Datalayer\bin\Debug\Datalayer.pdb
+N:\School_Manager\Datalayer\bin\Debug\EntityFramework.dll
+N:\School_Manager\Datalayer\bin\Debug\EntityFramework.SqlServer.dll
+N:\School_Manager\Datalayer\bin\Debug\EntityFramework.xml
+N:\School_Manager\Datalayer\bin\Debug\EntityFramework.SqlServer.xml
+N:\School_Manager\Datalayer\obj\Debug\Datalayer.csprojResolveAssemblyReference.cache
+N:\School_Manager\Datalayer\obj\Debug\Datalayer.dll
+N:\School_Manager\Datalayer\obj\Debug\Datalayer.pdb

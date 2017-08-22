@@ -1,10 +1,13 @@
-﻿namespace Datalayer
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Datalayer
 {
     public class Teacher
     {
         public Teacher(){ }
-
-        public int teacherId { get; set; }
+        
+        [Key]
+        public int national_Id { get; set; }
         public string fullName { get; set; }
         public string teacherName { get; set; }
         public string phone_No { get; set; }

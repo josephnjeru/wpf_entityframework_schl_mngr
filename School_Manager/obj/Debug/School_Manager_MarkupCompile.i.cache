@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\obj\Debug\
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\
 School_Manager
 none
 false
 DEBUG;TRACE
-C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\App.xaml
-3-1260861683
+C:\Users\KSG\Videos\School_Manager\School_Manager\App.xaml
+5-797689535
 
-101335501099
-201675983769
-MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
+131152089708
+261796857482
+backBtn.xaml;homebtn.xaml;MainWindow.xaml;Resources\Icons.xaml;Resources\IconsNonShared.xaml;
 
 False
 

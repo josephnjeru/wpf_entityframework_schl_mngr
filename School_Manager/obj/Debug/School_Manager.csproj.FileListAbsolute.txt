@@ -28,3 +28,297 @@ C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager
 C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\obj\Debug\App.baml
 C:\Users\KSG\Documents\Visual Studio 2015\Projects\School_Manager\School_Manager\obj\Debug\Resources\Icons.baml
 C:\Users\KSG\Documents\Visual Studio 2015\Projects\School_Manager\School_Manager\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\obj\Debug\homebtn.g.cs
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\obj\Debug\homebtn.baml
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\bin\Debug\MetroFramework.Design.dll
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\bin\Debug\MetroFramework.dll
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\bin\Debug\MaterialDesignColors.dll
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\School_Manager.exe.config
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\School_Manager.exe
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\School_Manager.pdb
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\School_Manager.csprojResolveAssemblyReference.cache
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\Resources\Icons.baml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\homebtn.g.cs
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\MainWindow.g.cs
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\App.g.cs
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.cache
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.lref
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\School_Manager.exe
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\School_Manager.pdb
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\Datalayer.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\EntityFramework.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MahApps.Metro.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MaterialDesignColors.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MetroFramework.Design.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MetroFramework.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\Datalayer.pdb
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\EntityFramework.xml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MahApps.Metro.pdb
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MahApps.Metro.xml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\App.baml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\homebtn.baml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\MainWindow.baml
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\School_Manager.g.resources
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\School_Manager.Properties.Resources.resources
+C:\Users\Joseph Njeru\Desktop\School_Manager\School_Manager\obj\Debug\School_Manager.csproj.GenerateResource.Cache
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\School_Manager.exe.config
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\School_Manager.exe
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\School_Manager.pdb
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\School_Manager.exe
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\School_Manager.pdb
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\Datalayer.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\EntityFramework.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MahApps.Metro.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MaterialDesignColors.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MetroFramework.Design.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MetroFramework.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\Datalayer.pdb
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\EntityFramework.xml
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MahApps.Metro.pdb
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MahApps.Metro.xml
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\KSG\Documents\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\School_Manager.csprojResolveAssemblyReference.cache
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\Resources\Icons.baml
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\homebtn.g.cs
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\MainWindow.g.cs
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\App.g.cs
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.cache
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.lref
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\App.baml
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\homebtn.baml
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\MainWindow.baml
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\School_Manager.g.resources
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\School_Manager.Properties.Resources.resources
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\School_Manager.csproj.GenerateResource.Cache
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\backBtn.g.cs
+C:\Users\KSG\Documents\School_Manager\School_Manager\obj\Debug\backBtn.baml
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\School_Manager.exe.config
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\School_Manager.exe
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\School_Manager.pdb
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\Datalayer.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\EntityFramework.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MahApps.Metro.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MaterialDesignColors.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MetroFramework.Design.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MetroFramework.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\Datalayer.pdb
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\EntityFramework.xml
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MahApps.Metro.pdb
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MahApps.Metro.xml
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\KSG\Videos\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\School_Manager.csprojResolveAssemblyReference.cache
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\Resources\Icons.baml
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\backBtn.g.cs
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\homebtn.g.cs
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\MainWindow.g.cs
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\App.g.cs
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.cache
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.lref
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\App.baml
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\backBtn.baml
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\homebtn.baml
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\MainWindow.baml
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\School_Manager.g.resources
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\School_Manager.Properties.Resources.resources
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\School_Manager.csproj.GenerateResource.Cache
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\School_Manager.exe
+C:\Users\KSG\Videos\School_Manager\School_Manager\obj\Debug\School_Manager.pdb
+F:\School_Manager\School_Manager\bin\Debug\School_Manager.exe.config
+F:\School_Manager\School_Manager\obj\Debug\School_Manager.exe
+F:\School_Manager\School_Manager\obj\Debug\School_Manager.pdb
+F:\School_Manager\School_Manager\bin\Debug\School_Manager.exe
+F:\School_Manager\School_Manager\bin\Debug\School_Manager.pdb
+F:\School_Manager\School_Manager\bin\Debug\Datalayer.dll
+F:\School_Manager\School_Manager\bin\Debug\EntityFramework.dll
+F:\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.dll
+F:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.dll
+F:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+F:\School_Manager\School_Manager\bin\Debug\MaterialDesignColors.dll
+F:\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.dll
+F:\School_Manager\School_Manager\bin\Debug\MetroFramework.Design.dll
+F:\School_Manager\School_Manager\bin\Debug\MetroFramework.dll
+F:\School_Manager\School_Manager\bin\Debug\MetroFramework.Fonts.dll
+F:\School_Manager\School_Manager\bin\Debug\System.Windows.Interactivity.dll
+F:\School_Manager\School_Manager\bin\Debug\Datalayer.pdb
+F:\School_Manager\School_Manager\bin\Debug\EntityFramework.xml
+F:\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.xml
+F:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.pdb
+F:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.xml
+F:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+F:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+F:\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.pdb
+F:\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.xml
+F:\School_Manager\School_Manager\obj\Debug\School_Manager.csprojResolveAssemblyReference.cache
+F:\School_Manager\School_Manager\obj\Debug\Resources\Icons.baml
+F:\School_Manager\School_Manager\obj\Debug\Resources\IconsNonShared.baml
+F:\School_Manager\School_Manager\obj\Debug\backBtn.g.cs
+F:\School_Manager\School_Manager\obj\Debug\homebtn.g.cs
+F:\School_Manager\School_Manager\obj\Debug\MainWindow.g.cs
+F:\School_Manager\School_Manager\obj\Debug\App.g.cs
+F:\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.cache
+F:\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.lref
+F:\School_Manager\School_Manager\obj\Debug\App.baml
+F:\School_Manager\School_Manager\obj\Debug\backBtn.baml
+F:\School_Manager\School_Manager\obj\Debug\homebtn.baml
+F:\School_Manager\School_Manager\obj\Debug\MainWindow.baml
+F:\School_Manager\School_Manager\obj\Debug\School_Manager.g.resources
+F:\School_Manager\School_Manager\obj\Debug\School_Manager.Properties.Resources.resources
+F:\School_Manager\School_Manager\obj\Debug\School_Manager.csproj.GenerateResource.Cache
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\School_Manager.exe.config
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\School_Manager.exe
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\School_Manager.pdb
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\School_Manager.exe
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\School_Manager.pdb
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\Datalayer.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\EntityFramework.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MahApps.Metro.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MaterialDesignColors.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MetroFramework.Design.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MetroFramework.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\Datalayer.pdb
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\EntityFramework.xml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MahApps.Metro.pdb
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MahApps.Metro.xml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\School_Manager.csprojResolveAssemblyReference.cache
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\Resources\Icons.baml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\Resources\IconsNonShared.baml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\backBtn.g.cs
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\homebtn.g.cs
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\MainWindow.g.cs
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\App.g.cs
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.cache
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.lref
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\App.baml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\backBtn.baml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\homebtn.baml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\MainWindow.baml
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\School_Manager.g.resources
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\School_Manager.Properties.Resources.resources
+C:\Users\KSG\Videos\New folder\School_Manager\School_Manager\obj\Debug\School_Manager.csproj.GenerateResource.Cache
+N:\School_Manager\School_Manager\bin\Debug\School_Manager.exe.config
+N:\School_Manager\School_Manager\obj\Debug\School_Manager.exe
+N:\School_Manager\School_Manager\obj\Debug\School_Manager.pdb
+N:\School_Manager\School_Manager\bin\Debug\School_Manager.exe
+N:\School_Manager\School_Manager\bin\Debug\School_Manager.pdb
+N:\School_Manager\School_Manager\bin\Debug\Datalayer.dll
+N:\School_Manager\School_Manager\bin\Debug\EntityFramework.dll
+N:\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.dll
+N:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.dll
+N:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+N:\School_Manager\School_Manager\bin\Debug\MaterialDesignColors.dll
+N:\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.dll
+N:\School_Manager\School_Manager\bin\Debug\MetroFramework.Design.dll
+N:\School_Manager\School_Manager\bin\Debug\MetroFramework.dll
+N:\School_Manager\School_Manager\bin\Debug\MetroFramework.Fonts.dll
+N:\School_Manager\School_Manager\bin\Debug\System.Windows.Interactivity.dll
+N:\School_Manager\School_Manager\bin\Debug\Datalayer.pdb
+N:\School_Manager\School_Manager\bin\Debug\EntityFramework.xml
+N:\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.xml
+N:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.pdb
+N:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.xml
+N:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+N:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+N:\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.pdb
+N:\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.xml
+N:\School_Manager\School_Manager\obj\Debug\School_Manager.csprojResolveAssemblyReference.cache
+N:\School_Manager\School_Manager\obj\Debug\Resources\Icons.baml
+N:\School_Manager\School_Manager\obj\Debug\Resources\IconsNonShared.baml
+N:\School_Manager\School_Manager\obj\Debug\backBtn.g.cs
+N:\School_Manager\School_Manager\obj\Debug\homebtn.g.cs
+N:\School_Manager\School_Manager\obj\Debug\MainWindow.g.cs
+N:\School_Manager\School_Manager\obj\Debug\App.g.cs
+N:\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.cache
+N:\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.lref
+N:\School_Manager\School_Manager\obj\Debug\App.baml
+N:\School_Manager\School_Manager\obj\Debug\backBtn.baml
+N:\School_Manager\School_Manager\obj\Debug\homebtn.baml
+N:\School_Manager\School_Manager\obj\Debug\MainWindow.baml
+N:\School_Manager\School_Manager\obj\Debug\School_Manager.g.resources
+N:\School_Manager\School_Manager\obj\Debug\School_Manager.Properties.Resources.resources
+N:\School_Manager\School_Manager\obj\Debug\School_Manager.csproj.GenerateResource.Cache
+E:\School_Manager\School_Manager\bin\Debug\School_Manager.exe.config
+E:\School_Manager\School_Manager\obj\Debug\School_Manager.exe
+E:\School_Manager\School_Manager\obj\Debug\School_Manager.pdb
+E:\School_Manager\School_Manager\bin\Debug\School_Manager.exe
+E:\School_Manager\School_Manager\bin\Debug\School_Manager.pdb
+E:\School_Manager\School_Manager\bin\Debug\Datalayer.dll
+E:\School_Manager\School_Manager\bin\Debug\EntityFramework.dll
+E:\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.dll
+E:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.dll
+E:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.dll
+E:\School_Manager\School_Manager\bin\Debug\MaterialDesignColors.dll
+E:\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\School_Manager\School_Manager\bin\Debug\MetroFramework.Design.dll
+E:\School_Manager\School_Manager\bin\Debug\MetroFramework.dll
+E:\School_Manager\School_Manager\bin\Debug\MetroFramework.Fonts.dll
+E:\School_Manager\School_Manager\bin\Debug\System.Windows.Interactivity.dll
+E:\School_Manager\School_Manager\bin\Debug\Datalayer.pdb
+E:\School_Manager\School_Manager\bin\Debug\EntityFramework.xml
+E:\School_Manager\School_Manager\bin\Debug\EntityFramework.SqlServer.xml
+E:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.pdb
+E:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.xml
+E:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.pdb
+E:\School_Manager\School_Manager\bin\Debug\MahApps.Metro.IconPacks.FontAwesome.xml
+E:\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\School_Manager\School_Manager\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\School_Manager\School_Manager\obj\Debug\School_Manager.csprojResolveAssemblyReference.cache
+E:\School_Manager\School_Manager\obj\Debug\Resources\Icons.baml
+E:\School_Manager\School_Manager\obj\Debug\Resources\IconsNonShared.baml
+E:\School_Manager\School_Manager\obj\Debug\backBtn.g.cs
+E:\School_Manager\School_Manager\obj\Debug\homebtn.g.cs
+E:\School_Manager\School_Manager\obj\Debug\MainWindow.g.cs
+E:\School_Manager\School_Manager\obj\Debug\App.g.cs
+E:\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.cache
+E:\School_Manager\School_Manager\obj\Debug\School_Manager_MarkupCompile.lref
+E:\School_Manager\School_Manager\obj\Debug\App.baml
+E:\School_Manager\School_Manager\obj\Debug\backBtn.baml
+E:\School_Manager\School_Manager\obj\Debug\homebtn.baml
+E:\School_Manager\School_Manager\obj\Debug\MainWindow.baml
+E:\School_Manager\School_Manager\obj\Debug\School_Manager.g.resources
+E:\School_Manager\School_Manager\obj\Debug\School_Manager.Properties.Resources.resources
+E:\School_Manager\School_Manager\obj\Debug\School_Manager.csproj.GenerateResource.Cache

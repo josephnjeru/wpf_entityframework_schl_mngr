@@ -6,7 +6,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:School_Manager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="768" Width="1300">
+        Title="MainWindow" Height="762" Width="1294">
+    <Window.Resources>
+        <Style x:Key="tileMouseOver" TargetType="Controls:Tile">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="BorderThickness" Value="2"/>
+                    <Setter Property="BorderBrush" Value="{DynamicResource AccentColorBrush}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
@@ -14,7 +25,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TabControl x:Name="tabControl1" HorizontalAlignment="Left" Height="738" VerticalAlignment="Top" Width="1292" Margin="0,10,0,-426">
+        <TabControl x:Name="tabControl1" HorizontalAlignment="Left" Height="722" VerticalAlignment="Top" Width="1286" Margin="0,10,0,-408">
             <TabItem x:Name="loginTab">
                 <Grid Background="#ffffff" Margin="0,-10,0,7" RenderTransformOrigin="0.504,0.497">
                     <Image x:Name="image" Margin="114,217,855,198" Source="School Logo 8.jpg"/>
@@ -27,9 +38,9 @@
             </TabItem>
             <TabItem x:Name="mainTab">
                 <Grid Background="#ffffff">
-                    <TabControl x:Name="tabControl2" HorizontalAlignment="Left" Height="723" VerticalAlignment="Top" Width="1282">
-                        <TabItem x:Name="tilesTab">
-                            <Grid Background="#ffffff">
+                    <TabControl x:Name="tabControl2" HorizontalAlignment="Left" Width="1282" Margin="0,-18,-6,10" Height="715" VerticalAlignment="Bottom">
+                        <TabItem x:Name="tilesTab" Margin="0,0,7,0" Height="5" VerticalAlignment="Top">
+                            <Grid Background="#ffffff" Margin="0,0,0,-11" HorizontalAlignment="Left" Width="1272">
                                 <Controls:Tile x:Name="tileClass" HorizontalAlignment="Left" Margin="45,107,0,0" VerticalAlignment="Top" Width="380" Height="230" FontSize="36" VerticalContentAlignment="Bottom" Click="tileClass_Click">
                                     <StackPanel Height="224" Width="198">
                                         <Image x:Name="_017_256_png" Height="156" Source="017-256.png" Stretch="Fill" HorizontalAlignment="Right" Width="188"/>
@@ -46,7 +57,7 @@
                                         <Label Content="Students"/>
                                     </StackPanel>
                                 </Controls:Tile>
-                                <Controls:Tile x:Name="tileStaff" HorizontalAlignment="Left" Margin="846,107,0,0" VerticalAlignment="Top" Width="380" Height="230" FontSize="36">
+                                <Controls:Tile x:Name="tileStaff" HorizontalAlignment="Left" Margin="846,107,0,0" VerticalAlignment="Top" Width="380" Height="230" FontSize="36" Click="tileStaff_Click">
                                     <StackPanel Height="209" Width="220" >
                                         <Rectangle Height="153" Margin="10,0,0,0" HorizontalAlignment="Left" Width="156">
                                             <Rectangle.Fill>
@@ -56,7 +67,7 @@
                                         <Label Content=" Staff"/>
                                     </StackPanel>
                                 </Controls:Tile>
-                                <Controls:Tile x:Name="tileExams" HorizontalAlignment="Left" Margin="45,362,0,0" VerticalAlignment="Top" Width="380" Height="230" FontSize="36">
+                                <Controls:Tile x:Name="tileExams" HorizontalAlignment="Left" Margin="45,362,0,0" VerticalAlignment="Top" Width="380" Height="230" FontSize="36" Click="tileExams_Click">
                                     <StackPanel Width="199" Height="216">
                                         <Image x:Name="result_128_png" Height="154" Margin="10,0,25,0" Source="result-128.png" Stretch="Fill"/>
                                         <Label Content="   Exams"/>
@@ -72,17 +83,17 @@
                                                 <TranslateTransform Y="-3.73"/>
                                             </TransformGroup>
                                         </StackPanel.RenderTransform>
-                                        <Rectangle Height="142" HorizontalAlignment="Left" Width="150" Margin="24,0,0,0" RenderTransformOrigin="0.631,0.52">
+                                        <Rectangle Height="142" HorizontalAlignment="Left" Width="150" Margin="44,0,0,0" RenderTransformOrigin="0.631,0.52">
                                             <Rectangle.Fill>
                                                 <VisualBrush Visual="{StaticResource appbar_settings}"/>
                                             </Rectangle.Fill>
                                         </Rectangle>
-                                        <Label Content="    Settings"/>
+                                        <Label Content="    Settings" Margin="4,0,-4,0"/>
                                     </StackPanel>
                                 </Controls:Tile>
                                 <Controls:Tile x:Name="tileLogout"  HorizontalAlignment="Left" Margin="846,362,0,0" VerticalAlignment="Top" Width="380" Height="230" FontSize="36">
                                     <StackPanel Width="197" Height="197">
-                                        <Rectangle Height="147" HorizontalAlignment="Left" Width="144" Margin="18,0,0,0">
+                                        <Rectangle Height="141" HorizontalAlignment="Left" Width="136" Margin="18,0,0,0">
                                             <Rectangle.Fill>
                                                 <VisualBrush Visual="{StaticResource appbar_power}"/>
                                             </Rectangle.Fill>
@@ -92,57 +103,85 @@
                                 </Controls:Tile>
                             </Grid>
                         </TabItem>
-                        <TabItem x:Name="tabItem">
-                            <Grid Background="#ffffff">
-                                <TabControl x:Name="tabControlManage" HorizontalAlignment="Right" Height="733" Margin="0,-25,0,0" VerticalAlignment="Top" Width="1272">
+                        <TabItem x:Name="tabItem" RenderTransformOrigin="0.5,0.5">
+                            <TabItem.RenderTransform>
+                                <TransformGroup>
+                                    <ScaleTransform/>
+                                    <SkewTransform/>
+                                    <RotateTransform Angle="-241.491"/>
+                                    <TranslateTransform/>
+                                </TransformGroup>
+                            </TabItem.RenderTransform>
+                            <Grid Background="#ffffff" Margin="0,-8,0,0">
+                                <TabControl x:Name="tabControlManage" HorizontalAlignment="Right" Height="728" Margin="-10,0,10,-20" VerticalAlignment="Top" Width="1272">
                                     <TabItem x:Name="classesTab">
-                                        <Grid Background="#ffffff">
-                                            <Label x:Name="label2" Content="Add a Class to the System" FontSize="28" HorizontalAlignment="Left" Margin="172,62,0,0" VerticalAlignment="Top" Height="68" Width="632"/>
-                                            <Separator HorizontalAlignment="Left" Height="56" Margin="-28,367,0,0" VerticalAlignment="Top" Width="543" RenderTransformOrigin="0.5,0.5">
-                                                <Separator.RenderTransform>
-                                                    <TransformGroup>
-                                                        <ScaleTransform/>
-                                                        <SkewTransform/>
-                                                        <RotateTransform Angle="-90"/>
-                                                        <TranslateTransform/>
-                                                    </TransformGroup>
-                                                </Separator.RenderTransform>
-                                            </Separator>
-                                            <ListView x:Name="listViewClasses" HorizontalAlignment="Left" Height="213" Margin="28,174,0,0" VerticalAlignment="Top" Width="202">
-                                                <ListView.View>
-                                                    <GridView>
-                                                        <GridViewColumn/>
-                                                    </GridView>
-                                                </ListView.View>
-                                                <ListBoxItem Content="Add a Class" FontSize="22" IsSelected="False" Margin="0,0,-197,0"/>
-                                                <ListBoxItem Content="View Classes" FontSize="22" IsSelected="False" Margin="0,0,-197,0"/>
-                                                <ListBoxItem Content="Class Reports" FontSize="22" IsSelected="False" Margin="0,0,-197,0"/>
-                                            </ListView>
-                                            <TabControl x:Name="tabControlClasses" HorizontalAlignment="Left" Height="588" Margin="250,130,0,0" VerticalAlignment="Top" Width="1002">
-                                                <TabItem x:Name="tab_add">
-                                                    <Grid Background="#ffffff" Margin="0,-3,0,-7">
-                                                        <Label x:Name="label3" Content="Stream: " FontSize="18" HorizontalAlignment="Left" Margin="108,78,0,0" VerticalAlignment="Top" Width="81" Height="34"/>
-                                                        <TextBox x:Name="txt_stream" FontSize="18" HorizontalAlignment="Left" Height="34" Margin="256,78,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="244"/>
-                                                        <Label x:Name="label4" Content="Form:" FontSize="18" HorizontalAlignment="Left" Margin="108,147,0,0" VerticalAlignment="Top" Width="81"/>
-                                                        <ComboBox x:Name="comboBox_form" HorizontalAlignment="Left" Margin="256,147,0,0" VerticalAlignment="Top" Width="244" SelectedIndex="0" Height="34">
+
+                                        <Grid Background="#ffffff" Margin="0,0,0,0">
+                                            <TabControl  x:Name="tabControlClasses" HorizontalAlignment="Left" Width="1262" Margin="0,0,0,0">
+                                                <TabItem>
+                                                    <Grid Background="#ffffff" Margin="0,0,0,0" >
+                                                        <Button x:Name="homeBtn" Style="{DynamicResource MetroCircleButtonStyle}" BorderBrush="{DynamicResource AccentColorBrush}" Width="100"  Height="100" Margin="57,24,1099,582" Click="homeBtn_Click" >
+                                                            <Image x:Name="home_512_png" Height="50" Source="home-512.png" Stretch="Fill" Width="50"/>
+                                                        </Button>
+
+                                                        <Controls:Tile Style="{StaticResource tileMouseOver}"  Width="248" Height="284" Background="#eaeaea" BorderThickness="0,2" BorderBrush="{DynamicResource AccentColorBrush}" Margin="50,152,944,257" Click="Tile_Click">
+                                                            <Grid Width="244" Height="280">
+                                                                <Label Content="  Add a Class" FontSize="34" Height="50" Margin="0,38,34,192" HorizontalAlignment="Right" Width="200"/>
+                                                                <Button Width="80" Height="80" Style="{DynamicResource MetroCircleButtonStyle}" BorderBrush="{DynamicResource AccentColorBrush}" Content="{StaticResource appbar_add_multiple}">
+
+                                                                </Button>
+                                                            </Grid>
+                                                        </Controls:Tile>
+                                                        <Controls:Tile Style="{StaticResource tileMouseOver}" Width="248" Height="284" Background="#eaeaea" BorderThickness="0,2" BorderBrush="{DynamicResource AccentColorBrush}" Margin="366,148,628,261" Click="Tile_Click_3">
+                                                            <Grid Width="244" Height="280">
+                                                                <Label Height="50" FontSize="34" Content=" View Classes" HorizontalAlignment="Left" Margin="10,35,0,195" Width="216"/>
+                                                                <Button Height="80" Width="80" Style="{DynamicResource MetroCircleButtonStyle}" BorderBrush="{DynamicResource AccentColorBrush}" Content="{StaticResource appbar_book_open_information}"></Button>
+                                                            </Grid>
+                                                        </Controls:Tile>
+                                                        <Controls:Tile Width="248" Height="284" Background="#eaeaea" BorderThickness="0,2" BorderBrush="{DynamicResource AccentColorBrush}" Margin="682,152,312,257">
+                                                            <Grid Width="244" Height="280">
+                                                                <Label Content="Coming Soon" FontSize="34" Margin="0,35,10,183" HorizontalAlignment="Right" Width="214"/>
+                                                                <Button Height="80" Width="80" Style="{DynamicResource MetroCircleButtonStyle}" BorderBrush="{DynamicResource AccentColorBrush}" Content="{StaticResource appbar_chess_queen}" />
+                                                            </Grid>
+                                                        </Controls:Tile>
+
+                                                    </Grid>
+                                                </TabItem>
+                                                <TabItem x:Name="tab_addclass">
+                                                    <Grid Background="#ffffff" Margin="0,0,0,0">
+                                                        <Button Style="{DynamicResource MetroCircleButtonStyle}" BorderBrush="{StaticResource AccentColorBrush}" Height="75" Width="75" Margin="10,10,1171,621"  HorizontalContentAlignment="Center" Click="Button_Click">
+                                                            <Image x:Name="back_icon_png" Height="50" Source="back_icon.png" Stretch="Fill" Width="50"/>
+                                                        </Button>
+                                                        <Label x:Name="label4" Content="Form:" FontSize="18" HorizontalAlignment="Left" Margin="142,115,0,0" VerticalAlignment="Top" Width="81"/>
+                                                        <ComboBox BorderBrush="{StaticResource AccentColorBrush}" x:Name="comboBox_form" HorizontalAlignment="Left" Margin="290,115,0,0" VerticalAlignment="Top" Width="244" FontSize="18" SelectedIndex="0" Height="34">
                                                             <ComboBoxItem Content="--select a level--" FontSize="18"/>
                                                             <ComboBoxItem Content="Form 1" FontSize="18"/>
                                                             <ComboBoxItem Content="Form 2" FontSize="18"/>
                                                             <ComboBoxItem Content="Form 3" FontSize="18"/>
                                                             <ComboBoxItem Content="Form 4" FontSize="18"/>
                                                         </ComboBox>
-                                                        <Label x:Name="label5" Content="Capacity" FontSize="18" HorizontalAlignment="Left" Margin="108,216,0,0" VerticalAlignment="Top" Width="81"/>
-                                                        <TextBox x:Name="txt_capacity" FontSize="18" HorizontalAlignment="Left" Height="34" Margin="256,216,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="244"/>
-                                                        <Label x:Name="label6" Content="Year" FontSize="18" HorizontalAlignment="Left" Margin="108,289,0,0" VerticalAlignment="Top" Width="81" Height="34"/>
-                                                        <TextBox x:Name="txt_year" FontSize="18" HorizontalAlignment="Left" Height="34" Margin="256,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244"/>
-                                                        <Label x:Name="label7" Content="Class Teacher" FontSize="18"  HorizontalAlignment="Left" Margin="108,359,0,0" VerticalAlignment="Top" Width="123" Height="34"/>
-                                                        <TextBox x:Name="txt_classteacher" FontSize="18" HorizontalAlignment="Left" Height="34" Margin="256,359,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="244"/>
-                                                        <Button x:Name="btnCancel" Content="cancel" HorizontalAlignment="Left" Margin="276,494,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.599,0.52"/>
-                                                        <Button x:Name="btnSave" Content="save" HorizontalAlignment="Left" Margin="425,494,0,0" VerticalAlignment="Top" Width="75"/>
+                                                        <Label x:Name="label5" Content="Capacity" FontSize="18" HorizontalAlignment="Left" Margin="142,184,0,0" VerticalAlignment="Top" Width="81"/>
+                                                        <TextBox BorderBrush="{StaticResource AccentColorBrush}" x:Name="txt_capacity" FontSize="18" HorizontalAlignment="Left" Height="34" Margin="290,184,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="244"/>
+                                                        <Label x:Name="label6" Content="Year" FontSize="18" HorizontalAlignment="Left" Margin="142,257,0,0" VerticalAlignment="Top" Width="81" Height="34"/>
+                                                        <TextBox BorderBrush="{StaticResource AccentColorBrush}" x:Name="txt_year" FontSize="18" HorizontalAlignment="Left" Height="34" Margin="290,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="244"/>
+                                                        <Label x:Name="label7" Content="Class Teacher" FontSize="18"  HorizontalAlignment="Left" Margin="142,327,0,0" VerticalAlignment="Top" Width="123" Height="34"/>
+                                                        <TextBox BorderBrush="{StaticResource AccentColorBrush}" x:Name="txt_classteacher" FontSize="18" HorizontalAlignment="Left" Height="34" Margin="290,327,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="244"/>
+                                                        <Button x:Name="btnCancel" Content="cancel" HorizontalAlignment="Left" Margin="276,490,0,0" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.599,0.52" Height="40"/>
+                                                        <Button BorderBrush="{StaticResource AccentColorBrush}" BorderThickness="7,0,0,0"   x:Name="btnSave" Content="save" HorizontalAlignment="Left" Margin="425,490,0,0" VerticalAlignment="Top" Width="95" Height="40" FontSize="18"  Click="btnSave_Click"/>
+                                                        <Label x:Name="label2" BorderThickness="2,2" BorderBrush="{StaticResource AccentColorBrush}" FontSize="28" Content="Add a New Class" HorizontalAlignment="Left" Margin="142,23,0,0" VerticalAlignment="Top" Width="392"/>
+                                                        <Label x:Name="label3" Content="Class Monitor" FontSize="18" HorizontalAlignment="Left" Margin="142,388,0,0" VerticalAlignment="Top" Height="40" Width="123"/>
+                                                        <ComboBox IsEnabled="False" BorderBrush="{StaticResource AccentColorBrush}" x:Name="comboBox" HorizontalAlignment="Left" Margin="290,388,0,0" VerticalAlignment="Top" Width="244" Height="40"/>
                                                     </Grid>
                                                 </TabItem>
-                                                <TabItem x:Name="tab_view" HorizontalAlignment="Right" Width="12">
-                                                    <Grid Background="#ffffff"/>
+                                                <TabItem >
+                                                    <Grid>
+                                                        <Button Style="{DynamicResource MetroCircleButtonStyle}" Height="75" Width="75" Margin="0,10,1177,618"  HorizontalContentAlignment="Center" BorderBrush="{StaticResource AccentColorBrush}" Click="Button_Click">
+                                                            <Image x:Name="back" Height="50" Source="back_icon.png" Stretch="Fill" Width="50"/>
+                                                        </Button>
+                                                        <Label Background="{StaticResource AccentColorBrush}" Opacity="0.9" Content="Classes" FontSize="28" Height="50" Margin="108,22,708,634"/>
+                                                        <DataGrid x:Name="dataGrid_teachers" HorizontalAlignment="Left" Margin="10,132,0,-20" VerticalAlignment="Center" Height="594" Width="1232"/>
+                                                        <TextBox BorderBrush="{StaticResource AccentColorBrush}" VerticalContentAlignment="Bottom" FontSize="16" ToolTip="search..." x:Name="textBoxSearch" HorizontalAlignment="Left" Height="35" Margin="963,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="203"/>
+                                                    </Grid>
                                                 </TabItem>
                                             </TabControl>
 
@@ -150,75 +189,124 @@
                                     </TabItem>
                                     <TabItem x:Name="studenttTab">
                                         <Grid Background="#ffffff">
-                                            <Separator HorizontalAlignment="Left" Height="69" Margin="6,333,0,0" VerticalAlignment="Top" Width="541" RenderTransformOrigin="0.5,0.5">
-                                                <Separator.RenderTransform>
-                                                    <TransformGroup>
-                                                        <ScaleTransform/>
-                                                        <SkewTransform/>
-                                                        <RotateTransform Angle="-90"/>
-                                                        <TranslateTransform/>
-                                                    </TransformGroup>
-                                                </Separator.RenderTransform>
-                                            </Separator>
-                                            <ListView x:Name="listViewStudents" FontSize="22" HorizontalAlignment="Left" Height="172" Margin="38,192,0,0" VerticalAlignment="Top" Width="222">
-                                                <ListView.View>
-                                                    <GridView>
-                                                        <GridViewColumn/>
-                                                    </GridView>
-                                                </ListView.View>
-                                                <ListBoxItem Content="Register student" Margin="0,0,-114,0" />
-                                                <ListBoxItem Content="Edit Student" Margin="0,0,-114,0" />
-                                                <ListBoxItem Content="Remove"/>
-                                                <ListBoxItem Content="View"/>
-                                            </ListView>
-                                            <TabControl x:Name="tabControlStudent" HorizontalAlignment="Left" Height="629" Margin="287,89,0,0" VerticalAlignment="Top" Width="975">
+                                            <TabControl  x:Name="tabControlStudent" HorizontalAlignment="Left" Height="722" Margin="0,-19,-20,0" VerticalAlignment="Top" Width="1282">
                                                 <TabItem>
-                                                    <Grid Background="#ffffff" Margin="0,-2,0,2">
+                                                    <Grid  >
+                                                        <Button x:Name="homeBtn1" Style="{DynamicResource MetroCircleButtonStyle}" BorderBrush="{DynamicResource AccentColorBrush}" Width="100"  Height="100"  Margin="10,10,1162,597" Click="homeBtn1_Click" >
+                                                            <Image x:Name="home_512_png1" Height="50" Source="home-512.png" Stretch="Fill" Width="50" Cursor="Hand"/>
+                                                        </Button>
 
-                                                        <Label Foreground="Gray" Content="Fill all the required students details to add record to the system" FontSize="16" Height="34" Margin="58,10,0,570" HorizontalAlignment="Left" Width="478" />
-                                                        <Label x:Name="label8" Content="Name" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,144,0,0" Width="86"/>
-                                                        <TextBox x:Name="txt_name" FontSize="18" HorizontalAlignment="Left" Height="34" TextWrapping="Wrap"  VerticalAlignment="Top" Width="285" Margin="199,144,0,0"/>
-                                                        <Label x:Name="label10" Content="Admission No." FontSize="18" HorizontalAlignment="Left" Margin="53,84,0,0" VerticalAlignment="Top" Width="122" Height="34"/>
-                                                        <TextBox x:Name="txt_admno" FontSize="18" HorizontalAlignment="Left" Height="34" Margin="199,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="285"/>
-                                                        <Label x:Name="label11" Content="Class" HorizontalAlignment="Left" Margin="53,209,0,0" VerticalAlignment="Top" Height="34" FontSize="18" Width="86"/>
-                                                        <ComboBox x:Name="comboBoxClass" HorizontalAlignment="Left" Margin="199,209,0,0" VerticalAlignment="Top" Width="285" Height="34"/>
-                                                        <Label x:Name="label12" Content="Gender" HorizontalAlignment="Left" Margin="53,263,0,0" VerticalAlignment="Top" Width="86" FontSize="18" Height="34"/>
-                                                        <RadioButton GroupName="gender" x:Name="radioButtonMale" FontSize="18" Content="Male" HorizontalAlignment="Left" Margin="199,263,0,0" VerticalAlignment="Top" Height="34" Width="90"/>
-                                                        <RadioButton GroupName="gender" x:Name="radioButtonF" Content="Female" FontSize="18" HorizontalAlignment="Left" Margin="350,263,0,0" VerticalAlignment="Top" Height="34" Width="104"/>
-                                                        <Label x:Name="label13" Content="K.C.P.E Index no." FontSize="18" HorizontalAlignment="Left" Margin="53,370,0,0" VerticalAlignment="Top" Width="142" Height="34"/>
-                                                        <TextBox x:Name="txt_kcpeindexno" HorizontalAlignment="Left" Height="34" Margin="199,370,0,0" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Top" Width="285"/>
-                                                        <Label x:Name="label16" Content="K.C.P.E Marks" FontSize="18" HorizontalAlignment="Left" Margin="53,432,0,0" VerticalAlignment="Top" Width="122" Height="34"/>
-                                                        <TextBox x:Name="txt_kcpemarks" HorizontalAlignment="Left" Height="34" Margin="199,432,0,0" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Top" Width="285"/>
-                                                        <Label x:Name="label9" Content="Date of Birth" FontSize="18" HorizontalAlignment="Left" Margin="53,320,0,0" VerticalAlignment="Top" Width="122" Height="34"/>
-                                                        <DatePicker x:Name="dateTimePicjerDOB" FontSize="18" HorizontalAlignment="Left" Margin="199,320,0,0" VerticalAlignment="Top" Width="228" Height="32"/>
-                                                        <Label x:Name="label14" Content="Parent details" FontSize="16" Foreground="Gray" HorizontalAlignment="Left" Margin="542,86,0,0" VerticalAlignment="Top" Width="364"/>
-                                                        <Label x:Name="label15" Content="Id No" FontSize="16" HorizontalAlignment="Left" Margin="572,131,0,0" VerticalAlignment="Top" Width="112" Height="30"/>
-                                                        <TextBox x:Name="txt_parentID" FontSize="16" HorizontalAlignment="Left" Height="29" Margin="711,134,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="229"/>
-                                                        <Label x:Name="label17" Content="Parent Name" FontSize="16" HorizontalAlignment="Left" Margin="572,199,0,0" VerticalAlignment="Top" Height="30" Width="112"/>
-                                                        <TextBox x:Name="txt_parentname" HorizontalAlignment="Left" Height="30" Margin="711,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Width="229"/>
-                                                        <Label x:Name="label18" Content="Phone" FontSize="16" Height="30" HorizontalAlignment="Left" Margin="572,261,0,0" VerticalAlignment="Top" Width="112"/>
-                                                        <TextBox x:Name="txt_phone" HorizontalAlignment="Left" Height="30" Margin="711,265,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="229"/>
-                                                        <Label x:Name="label19" Content="Email" FontSize="16" Height="30" HorizontalAlignment="Left" Margin="572,326,0,0" VerticalAlignment="Top" Width="112"/>
-                                                        <TextBox x:Name="txt_email" HorizontalAlignment="Left" Height="30" FontSize="16"  Margin="711,330,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
-                                                        <Label x:Name="label20" Content="Address" FontSize="16" Height="30" HorizontalAlignment="Left" Margin="572,390,0,0" VerticalAlignment="Top"/>
-                                                        <TextBox x:Name="txt_address" HorizontalAlignment="Left" Height="30" Margin="711,394,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"  Width="229"/>
-                                                        <RadioButton x:Name="radioButtonFather" Content="Father" HorizontalAlignment="Left" Margin="572,469,0,0" VerticalAlignment="Top" FontSize="16" Height="30"/>
-                                                        <RadioButton x:Name="radioButtonMother" FontSize="16" Content="Mother" HorizontalAlignment="Left" Margin="694,469,0,0" VerticalAlignment="Top" Height="30"/>
-                                                        <RadioButton x:Name="radioButtonGurdian" Content="Gurdian" FontSize="16" Height="30" HorizontalAlignment="Left" Margin="826,469,0,0" VerticalAlignment="Top"/>
-                                                        <Button x:Name="button_cancel" FontSize="16"  Content="cancel" HorizontalAlignment="Left" Margin="694,551,0,0" VerticalAlignment="Top" Width="75"/>
-                                                        <Button x:Name="button_saverec" Content="Save Record" FontSize="16" HorizontalAlignment="Left" Margin="811,551,0,0" VerticalAlignment="Top" Width="129" Height="35" Click="button_saverec_Click"/>
-                                                        <Button x:Name="button_clear" Content="clear" FontSize="16" HorizontalAlignment="Left" Margin="572,551,0,0" VerticalAlignment="Top" Width="75"/>
+                                                        <Controls:Tile  Width="300" Height="100" Background="#eaeaea" BorderThickness="10,0,0,0" BorderBrush="{DynamicResource AccentColorBrush}" Margin="164,122,788,503" Cursor="Hand" Click="Tile_Click_1">
+                                                            <Grid Width="284" Height="90">
+                                                                <Label Content="  Register Student" FontSize="22" Height="50" VerticalAlignment="Top" HorizontalAlignment="Right" Width="202" Margin="0,28,80,0"/>
+                                                                <Button IsEnabled="False" Height="60" Width="60" Style="{DynamicResource MetroCircleButtonStyle}"   Margin="211,15,13,15">
+                                                                    <Grid Width="40" Height="40">
+                                                                        <Label Content="{StaticResource appbar_add}" Height="48" VerticalAlignment="Bottom" RenderTransformOrigin="0.229,3.188" Margin="-24,-24,16,16"/>
+                                                                    </Grid>
+                                                                </Button>
+                                                            </Grid>
+                                                        </Controls:Tile>
+                                                        <Controls:Tile Width="300" Height="100" Background="#eaeaea" BorderThickness="10,0,0,0" BorderBrush="{DynamicResource ResourceKey=AccentColorBrush}" Margin="164,256,788,369" Cursor="Hand" Click="Tile_Click_2" >
+                                                            <Grid Width="284" Height="90">
+                                                                <Label Content="View All Student" FontSize="22" Height="50" VerticalAlignment="Top" HorizontalAlignment="Right" Width="202" Margin="0,28,80,0"/>
+                                                                <Button IsEnabled="False" Height="60" Width="60" Style="{DynamicResource MetroCircleButtonStyle}"   Margin="211,15,13,15">
+                                                                    <Grid Width="40" Height="40">
+                                                                        <Label Content="{StaticResource appbar_magnify_browse}" Height="48" VerticalAlignment="Bottom" RenderTransformOrigin="0.229,3.188" Margin="-26,-24,18,16"/>
+                                                                    </Grid>
+                                                                </Button>
+                                                            </Grid>
+                                                        </Controls:Tile>
+                                                        <Controls:Tile Width="300" Height="100" Background="#eaeaea" BorderThickness="10,0,0,0" BorderBrush="{DynamicResource ResourceKey=AccentColorBrush}" Margin="164,386,788,239" Cursor="Hand">
+                                                            <Grid Width="284" Height="90">
+                                                                <Label Content="Edit Details" FontSize="22" Height="50" VerticalAlignment="Top" HorizontalAlignment="Right" Width="202" Margin="0,28,80,0"/>
+                                                                <Button Height="60" Width="60" Style="{DynamicResource MetroCircleButtonStyle}"   Margin="211,15,13,15">
+                                                                    <Grid Width="40" Height="40">
+                                                                        <Label Content="{StaticResource appbar_edit}" Height="48" VerticalAlignment="Bottom" RenderTransformOrigin="0.229,3.188" Margin="-24,-26,16,18"/>
+                                                                    </Grid>
+                                                                </Button>
+                                                            </Grid>
+                                                        </Controls:Tile>
+
+                                                        <Controls:Tile Width="300" Height="100" Background="#eaeaea" BorderThickness="10,0,0,0" BorderBrush="{DynamicResource ResourceKey=AccentColorBrush}" Margin="522,256,430,369" />
+                                                        <Controls:Tile Width="300" Height="100" Background="#eaeaea" BorderThickness="10,0,0,0" BorderBrush="{DynamicResource ResourceKey=AccentColorBrush}" Margin="522,122,430,503" />
+                                                        <Label x:Name="label21" Foreground="{StaticResource AccentColorBrush}" Content="Manage Students" FontSize="28" HorizontalAlignment="Left" Margin="134,32,0,0" VerticalAlignment="Top" Width="530" Height="60"/>
                                                     </Grid>
                                                 </TabItem>
-                                                <TabItem x:Name="edit_tab">
-                                                    <Grid Background="#ffffff"/>
+                                                <TabItem>
+                                                    <Grid Background="#ffffff" Margin="0,-2,0,2">
+                                                        <Button x:Name="regback_std_home" Width="80" Height="80" Style="{StaticResource MetroCircleButtonStyle}" Margin="0,10,1192,617" BorderBrush="{StaticResource AccentColorBrush}" Click="regback_std_home_Click">
+                                                            <Image x:Name="back_icon_png1" Height="45" Source="back_icon.png" Stretch="Fill" Width="45"/>
+                                                        </Button>
+                                                        <Label Foreground="{StaticResource AccentColorBrush}" Content="Register students to the system" FontSize="28" Margin="100,31,0,626" HorizontalAlignment="Left" Width="806" />
+                                                        <Label x:Name="label8" Content="Name" FontSize="18" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55,214,0,0" Width="86"/>
+                                                        <TextBox x:Name="txt_name" FontSize="18" HorizontalAlignment="Left" Height="34" TextWrapping="Wrap"  VerticalAlignment="Top" Width="285" Margin="201,214,0,0"/>
+                                                        <Label x:Name="label10" Content="Admission No." FontSize="18" HorizontalAlignment="Left" Margin="55,154,0,0" VerticalAlignment="Top" Width="122" Height="34"/>
+                                                        <TextBox x:Name="txt_admno" FontSize="18" HorizontalAlignment="Left" Height="34" Margin="201,154,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="285"/>
+                                                        <Label x:Name="label11" Content="Class" HorizontalAlignment="Left" Margin="55,279,0,0" VerticalAlignment="Top" Height="34" FontSize="18" Width="86"/>
+                                                        <ComboBox x:Name="comboBoxClass" HorizontalAlignment="Left" Margin="201,279,0,0" VerticalAlignment="Top" Width="285" Height="34"/>
+                                                        <Label x:Name="label12" Content="Gender" HorizontalAlignment="Left" Margin="55,333,0,0" VerticalAlignment="Top" Width="86" FontSize="18" Height="34"/>
+                                                        <RadioButton GroupName="gender" x:Name="radioButtonMale" FontSize="18" Content="Male" HorizontalAlignment="Left" Margin="201,333,0,0" VerticalAlignment="Top" Height="34" Width="90"/>
+                                                        <RadioButton GroupName="gender" x:Name="radioButtonF" Content="Female" FontSize="18" HorizontalAlignment="Left" Margin="352,333,0,0" VerticalAlignment="Top" Height="34" Width="104"/>
+                                                        <Label x:Name="label13" Content="K.C.P.E Index no." FontSize="18" HorizontalAlignment="Left" Margin="55,440,0,0" VerticalAlignment="Top" Width="142" Height="34"/>
+                                                        <TextBox x:Name="txt_kcpeindexno" HorizontalAlignment="Left" Height="34" Margin="201,440,0,0" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Top" Width="285"/>
+                                                        <Label x:Name="label16" Content="K.C.P.E Marks" FontSize="18" HorizontalAlignment="Left" Margin="55,502,0,0" VerticalAlignment="Top" Width="122" Height="34"/>
+                                                        <TextBox x:Name="txt_kcpemarks" HorizontalAlignment="Left" Height="34" Margin="201,502,0,0" TextWrapping="Wrap" FontSize="18" VerticalAlignment="Top" Width="285"/>
+                                                        <Label x:Name="label9" Content="Date of Birth" FontSize="18" HorizontalAlignment="Left" Margin="55,390,0,0" VerticalAlignment="Top" Width="122" Height="34"/>
+                                                        <DatePicker x:Name="dateTimePicjerDOB" FontSize="18" HorizontalAlignment="Left" Margin="201,390,0,0" VerticalAlignment="Top" Width="228" Height="32"/>
+                                                        <Button x:Name="button_saverec" Content="Next" FontSize="16" HorizontalAlignment="Left" Margin="386,605,0,0" VerticalAlignment="Top" Width="100" Height="31" Click="button_saverec_Click"/>
+                                                        <Button x:Name="button_cancel" FontSize="16"  Content="cancel" HorizontalAlignment="Left" Margin="244,605,0,0" VerticalAlignment="Top" Width="75"/>
+                                                        <Button x:Name="button_clear" Content="clear" FontSize="16" HorizontalAlignment="Left" Margin="122,605,0,0" VerticalAlignment="Top" Width="75" Click="button_clear_Click"/>
+
+                                                    </Grid>
+                                                </TabItem>
+
+                                                <TabItem x:Name="view_tab">
+                                                    <Grid Background="#ffffff">
+                                                        <Button Width="80" Height="80" Margin="0,10,1192,617" Style="{DynamicResource MetroCircleButtonStyle}" BorderBrush="{StaticResource AccentColorBrush}" Click="Button_Click_1">
+                                                            <Image x:Name="back_icon_png2" Height="45" Source="back_icon.png" Stretch="Fill" Width="45"/>
+                                                        </Button>
+                                                        <DataGrid x:Name="dataGrid_students"   Style="{StaticResource AzureDataGrid}" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" Height="608" Width="1262" AutoGenerateColumns="False">
+                                                            <DataGrid.Columns>
+                                                                <DataGridTextColumn Binding="{Binding adm_no}" Header="Admission No." Width="*"/>
+                                                                <DataGridTextColumn Binding="{Binding studentName}" Header="Name" Width="*"/>
+                                                                <DataGridTextColumn Binding="{Binding dateofbirth}" Header="Date of Birth" Width="*"/>
+                                                                <DataGridTextColumn Binding="{Binding kcpe_marks}" Header="KCPE Marks" Width="*"/>
+                                                                <DataGridTextColumn Binding="{Binding gender}" Header="Gender" Width="*"/>
+                                                                <DataGridTextColumn Binding="{Binding stream}" Header="Class" Width="*"/>
+                                                                <DataGridTextColumn Binding="{Binding activities}" Header="Activies" Width="*"/>
+                                                                <DataGridTextColumn Binding="{Binding joiningdate}" Header="Date Joined" Width="*"/>
+
+                                                            </DataGrid.Columns>
+                                                        </DataGrid>
+                                                        <Label x:Name="label22" Content="Record of all Students" Foreground="{StaticResource AccentColorBrush}" FontSize="28" HorizontalAlignment="Left" Margin="104,28,0,0" VerticalAlignment="Top" Height="42" Width="290"/>
+                                                    </Grid>
+                                                </TabItem>
+                                                <TabItem>
+                                                    <Grid Background="AliceBlue" Margin="-3,12,3,-12">
+                                                        <Label x:Name="label15" Content="Id No" FontSize="16" HorizontalAlignment="Left" Margin="83,120,0,0" VerticalAlignment="Top" Width="112" Height="30"/>
+                                                        <TextBox x:Name="txt_parentID" FontSize="16" HorizontalAlignment="Left" Height="28" Margin="222,124,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="229"/>
+                                                        <Label x:Name="label17" Content="Parent Name" FontSize="16" HorizontalAlignment="Left" Margin="83,188,0,0" VerticalAlignment="Top" Height="30" Width="112"/>
+                                                        <TextBox x:Name="txt_parentname" HorizontalAlignment="Left" Height="30" Margin="222,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Width="229"/>
+                                                        <Label x:Name="label18" Content="Phone" FontSize="16" Height="30" HorizontalAlignment="Left" Margin="83,250,0,0" VerticalAlignment="Top" Width="112"/>
+                                                        <TextBox x:Name="txt_phone" HorizontalAlignment="Left" Height="30" Margin="222,254,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="229"/>
+                                                        <Label x:Name="label19" Content="Email" FontSize="16" Height="30" HorizontalAlignment="Left" Margin="83,316,0,0" VerticalAlignment="Top" Width="112"/>
+                                                        <TextBox x:Name="txt_email" HorizontalAlignment="Left" Height="30" FontSize="16"  Margin="222,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="229"/>
+                                                        <Label x:Name="label20" Content="Address" FontSize="16" Height="30" HorizontalAlignment="Left" Margin="83,380,0,0" VerticalAlignment="Top"/>
+                                                        <TextBox x:Name="txt_address" HorizontalAlignment="Left" Height="30" Margin="222,384,0,0" TextWrapping="Wrap"  VerticalAlignment="Top"  Width="229"/>
+                                                        <RadioButton x:Name="radioButtonFather" Content="Father" HorizontalAlignment="Left" Margin="83,458,0,0" VerticalAlignment="Top" FontSize="16" Height="30"/>
+                                                        <RadioButton x:Name="radioButtonMother" FontSize="16" Content="Mother" HorizontalAlignment="Left" Margin="205,458,0,0" VerticalAlignment="Top" Height="30"/>
+                                                        <RadioButton x:Name="radioButtonGurdian" Content="Gurdian" FontSize="16" Height="30" HorizontalAlignment="Left" Margin="337,458,0,0" VerticalAlignment="Top"/>
+                                                        <Button x:Name="button_cancel1" FontSize="16"  Content="cancel" HorizontalAlignment="Left" Margin="205,540,0,0" VerticalAlignment="Top" Width="75"/>
+                                                        <Button x:Name="button_clea1r" Content="clear" FontSize="16" HorizontalAlignment="Left" Margin="83,540,0,0" VerticalAlignment="Top" Width="75"/>
+                                                    </Grid>
                                                 </TabItem>
                                                 <TabItem x:Name="remove_tab">
                                                     <Grid Background="#ffffff"/>
                                                 </TabItem>
-                                                <TabItem x:Name="view_tab">
+                                                <TabItem x:Name="edit_tab">
                                                     <Grid Background="#ffffff"/>
                                                 </TabItem>
+
                                             </TabControl>
                                         </Grid>
                                     </TabItem>
@@ -226,7 +314,53 @@
                                         <Grid Background="#ffffff"/>
                                     </TabItem>
                                     <TabItem x:Name="examsTab">
-                                        <Grid Background="#ffffff"/>
+
+                                        <Grid Background="#ffffff">
+                                            <TabControl x:Name="tabCtrlExams">
+                                                <TabItem>
+                                                    <Grid Background="#ffffff" Margin="0,0,0,0" Height="667" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="1286">
+                                                        <Controls:Tile Background="#eaeaea" Width="248" Height="284" BorderThickness="0,2" BorderBrush="{DynamicResource AccentColorBrush}" Margin="59,100,979,343" TiltFactor="3">
+                                                            <Grid Width="244" Height="280" >
+                                                                <Label Content="Add Exam" Foreground="black" FontSize="30" HorizontalAlignment="Left" Margin="40,58,0,170" Width="164"/>
+                                                                <Button x:Name="buttonAddExam" IsEnabled="False"  Style="{DynamicResource MetroCircleButtonStyle}" Content="{StaticResource appbar_add}" BorderBrush="{DynamicResource AccentColorBrush}" HorizontalAlignment="Left" Margin="85,170,0,0" VerticalAlignment="Top" Width="80" Height="80"/>
+                                                            </Grid>
+                                                        </Controls:Tile>
+
+                                                        <Controls:Tile Background="#eaeaea" Width="248" Height="284" BorderThickness="0,2" BorderBrush="{DynamicResource AccentColorBrush}" Margin="371,100,667,343" TiltFactor="3">
+                                                            <Grid Width="244" Height="280" >
+                                                                <Label Content="Enter" FontSize="30" Foreground="black" HorizontalAlignment="Left" Margin="68,27,0,197" Width="90"/>
+                                                                <Label Content="Exam Results" FontSize="30" Foreground="black" Height="50" HorizontalAlignment="Left" Margin="24,83,0,147" Width="210" />
+                                                                <Button IsEnabled="False" x:Name="buttonEnterResults" Content="{StaticResource appbar_paper}" Style="{DynamicResource MetroCircleButtonStyle}" BorderBrush="{DynamicResource AccentColorBrush}"  HorizontalAlignment="Left" Margin="85,170,0,0" VerticalAlignment="Top" Width="80" Height="80"/>
+
+                                                            </Grid>
+                                                        </Controls:Tile>
+
+                                                        <Controls:Tile Background="#eaeaea" Width="248" Height="284" BorderThickness="0,2" BorderBrush="{DynamicResource AccentColorBrush}" Margin="679,100,359,343" TiltFactor="3">
+                                                            <Grid Width="244" Height="280" >
+                                                                <Label Content="Print" FontSize="30" HorizontalAlignment="Left" Margin="68,27,0,203" Width="108"/>
+                                                                <Label Content="Report Forms" FontSize="30" Margin="14,78,0,146" HorizontalAlignment="Left" Width="216"/>
+                                                                <Button IsEnabled="False" Height="80" Width="80" Style="{DynamicResource MetroCircleButtonStyle}" BorderBrush="{DynamicResource AccentColorBrush}" Content="{StaticResource appbar_printer_text}" Margin="68,170,96,30"/>
+                                                            </Grid>
+                                                        </Controls:Tile>
+
+                                                        <Controls:Tile Background="#eaeaea" Width="248" Height="284" BorderThickness="0,2" BorderBrush="{DynamicResource AccentColorBrush}" Margin="993,100,45,343" TiltFactor="3">
+                                                            <Grid Width="244" Height="280" >
+                                                                <Label Content="Reports " FontSize="30" HorizontalAlignment="Left" Margin="50,28,0,202" Width="138"/>
+                                                                <Label Content="and Progress" FontSize="30" Margin="14,78,0,146" HorizontalAlignment="Left" Width="216"/>
+                                                                <Button IsEnabled="False" Height="80" Width="80" Style="{DynamicResource MetroCircleButtonStyle}" BorderBrush="{DynamicResource AccentColorBrush}" Content="{StaticResource appbar_graph_line_up}" Margin="68,170,96,30"/>
+                                                            </Grid>
+                                                        </Controls:Tile>
+                                                        <Controls:Tile Background="#eaeaea" Width="248" Height="284" BorderThickness="0,2" BorderBrush="{DynamicResource AccentColorBrush}" Margin="59,408,979,35" TiltFactor="3">
+                                                            <Grid Width="244" Height="280" >
+                                                                <Label Content="View Exams " Foreground="black" FontSize="30" HorizontalAlignment="Left" Margin="40,62,0,166" Width="164"/>
+                                                                <Button x:Name="buttonViewExam" IsEnabled="False"  Style="{DynamicResource MetroCircleButtonStyle}" Content="{StaticResource appbar_magnify_browse}" BorderBrush="{DynamicResource AccentColorBrush}" HorizontalAlignment="Left" Margin="85,170,0,0" VerticalAlignment="Top" Width="80" Height="80"/>
+                                                            </Grid>
+                                                        </Controls:Tile>
+
+                                                    </Grid>
+                                                </TabItem>
+                                            </TabControl>
+                                        </Grid>
                                     </TabItem>
                                     <TabItem x:Name="settings">
                                         <Grid Background="#ffffff"/>
@@ -240,4 +374,7 @@
         </TabControl>
 
     </Grid>
+
+
+
 </Controls:MetroWindow>

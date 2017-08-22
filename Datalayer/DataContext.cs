@@ -9,13 +9,13 @@ namespace Datalayer
 {
     public class DataContext : DbContext
     {
-        public DataContext() : base("SchoolDB")
+        public DataContext() : base("School")
         {
-            if (!Database.Exists("SchoolDB"))
+            if (!Database.Exists("School"))
                 Database.SetInitializer(new DropCreateDatabaseAlways<DataContext>());
         }
         public DbSet<Student> Students { get; set; }
-        public DbSet<Standard> Standards { get; set; }
+        public DbSet<Stream> Streams { get; set; }
         public DbSet<Teacher> Teachers { get; set; }
         public DbSet<Parent> Parents { get; set; }
         public DbSet<Staff> Staffs { get; set; }

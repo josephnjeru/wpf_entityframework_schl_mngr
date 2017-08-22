@@ -1,0 +1,10 @@
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\bin\Debug\Datalayer.dll.config
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\bin\Debug\Datalayer.dll
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\bin\Debug\Datalayer.pdb
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\bin\Debug\EntityFramework.dll
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\bin\Debug\EntityFramework.xml
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\obj\Debug\Datalayer.csprojResolveAssemblyReference.cache
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\obj\Debug\Datalayer.dll
+C:\Users\KSG\documents\visual studio 2015\Projects\School_Manager\Datalayer\obj\Debug\Datalayer.pdb
